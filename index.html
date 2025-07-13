@@ -1,30 +1,13 @@
-
 <!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>VMT</title>
-  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-  <style>
-    body { font-family: sans-serif; margin: 0; padding: 0; }
-    header { display: flex; justify-content: space-between; align-items: center; background: #f44336; color: white; padding: 10px 20px; }
-    .menu { cursor: pointer; font-size: 24px; }
-    .sidebar { position: fixed; top: 0; left: 0; background: white; width: 250px; height: 100%; padding: 20px; box-shadow: 2px 0 5px rgba(0,0,0,0.1); display: none; flex-direction: column; gap: 10px; }
-    .sidebar.show { display: flex; }
-    .main { padding: 20px; }
-    .logo { font-size: 32px; font-weight: bold; }
-    .alarma-btn { display: flex; flex-direction: column; align-items: center; margin-right: 20px; }
-    .alarma-btn img { width: 80px; height: 80px; }
-    .flex { display: flex; align-items: center; }
-    .mapa { width: 100%; height: 300px; margin-top: 20px; }
-    .contacto, .video, .reporte, .cuenta { margin-bottom: 20px; }
-    iframe { width: 100%; height: 200px; }
-    .perfil { position: relative; width: 100px; height: 100px; border-radius: 50%; background: #ccc; overflow: hidden; }
-    .camara-btn { position: absolute; bottom: 0; right: 0; background: white; border-radius: 50%; padding: 5px; cursor: pointer; }
-  </style>
-</head>
-<body>
-  <!-- Content here (same as in the canvas) -->
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VMT App</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
